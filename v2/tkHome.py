@@ -8,16 +8,16 @@ bg_color = "#FAE5AC"
 button_color = "#cd661d"
 
 def openSignIn():
-    os.system('tkSignIn.py') # calls the tkSignIn.py python script
+    os.system('python3 tkSignIn.py') # calls the tkSignIn.py python script
 
 def openSignOut():
-	os.system('tkSignOut.py') # calls the tkSignOut.py python script
+	os.system('python3 tkSignOut.py') # calls the tkSignOut.py python script
 
 def openUpdateProfile():
-	os.system('tkUpdateProfile.py') # calls the tkUpdateProfile.py python script
+	os.system('python3 tkUpdateProfile.py') # calls the tkUpdateProfile.py python script
 
 def openLog():
-	os.system('tkVisitorLog.py') # calls the tkVisitorLog.py python script
+	os.system('python3 tkVisitorLog.py') # calls the tkVisitorLog.py python script
 
 # initialize app
 root = tk.Tk()
